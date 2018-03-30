@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+    <title>SkillCraft - развивайся играя</title>
+    <link rel="SHORTCUT ICON" href="assets/images/logo.png" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <canvas id="tutorial" width="150" height="150"></canvas>
+</head>
+
+<body>
+    <script type="text/javascript" src="Point.js"></script>
+    <script type="text/javascript" src="Language.js"></script>
+	<script type="text/javascript" src="GameParams.js"></script>
+    <script type="text/javascript" src="Engine_params.js"></script>
+    <script type="text/javascript" src="PushButton.js"></script>    
+	<script type="text/javascript" src="ToolTip.js"></script>
+	<script type="text/javascript" src="MessageBox.js"></script>
+	<script type="text/javascript" src="lodash.js"></script>
+    <script type="text/javascript" src="accountData.js"></script>
+    <script type="text/javascript" src="Graphics.js"></script>
+    <script type="text/javascript" src="Input.js"></script>
+    <script type="text/javascript" src="Commands.js"></script>
+    <script type="text/javascript" src="ScrollBar.js"></script>
+    <script type="text/javascript" src="Label.js"></script>
+    <script type="text/javascript" src="Dialog.js"></script>
+    <script type="text/javascript" src="GUI.js"></script>
+    <script type="text/javascript" src="CoinObject.js"></script>
+    <script type="text/javascript" src="Map.js"></script>
+    <script type="text/javascript" src="Viewer.js"></script>
+    <script type="text/javascript" src="Player.js"></script>
+    <script type="text/javascript" src="SecondScreen.js"></script>
+    <script type="text/javascript" src="Logic.js"></script>
+    
+    <div id="preloader_malc">
+	<div>
+		Подождите, идет загрузка...
+	</div>
+</div>
+
+<style type="text/css">
+	#preloader_malc {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, .6);
+		z-index: 99
+	}
+
+	#preloader_malc div {
+		background: #fff;
+		width: 260px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 8px;
+		font-family: arial;
+		font-size: 15px;
+		color: #111;
+		text-align: center;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto
+	}
+</style>
+
+<script type="text/javascript">
+	window.onload = function() {
+		setTimeout(function(){
+			document.getElementById('preloader_malc').style.display='none';
+		}, 400);
+	};
+</script>
+</body>
+
+</html>

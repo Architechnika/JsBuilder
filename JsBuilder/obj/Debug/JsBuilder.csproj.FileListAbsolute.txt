@@ -1,0 +1,7 @@
+C:\Users\belyakov.il\source\repos\JsBuilder\JsBuilder\bin\Debug\JsBuilder.exe.config
+C:\Users\belyakov.il\source\repos\JsBuilder\JsBuilder\bin\Debug\JsBuilder.exe
+C:\Users\belyakov.il\source\repos\JsBuilder\JsBuilder\bin\Debug\JsBuilder.pdb
+C:\Users\belyakov.il\source\repos\JsBuilder\JsBuilder\obj\Debug\JsBuilder.csproj.CoreCompileInputs.cache
+C:\Users\belyakov.il\source\repos\JsBuilder\JsBuilder\obj\Debug\JsBuilder.exe
+C:\Users\belyakov.il\source\repos\JsBuilder\JsBuilder\obj\Debug\JsBuilder.pdb
+C:\Users\belyakov.il\source\repos\JsBuilder\JsBuilder\obj\Debug\JsBuilder.csprojResolveAssemblyReference.cache
